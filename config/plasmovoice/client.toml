@@ -1,0 +1,96 @@
+debug = false
+disable_crowdin = false
+check_for_updates = true
+
+[[key_bindings]]
+keys = []
+name = "key.plasmovoice.general.mute_microphone"
+any_context = false
+category = "key.plasmovoice.general"
+
+[[key_bindings]]
+name = "key.plasmovoice.proximity.ptt"
+any_context = true
+category = "hidden"
+
+[[key_bindings.keys]]
+code = 3
+type = "MOUSE"
+
+[servers.ee63319a-a1c2-4b50-ab85-b27e89c56d2e.distances]
+4aec07ba-d109-3345-9a0a-92022a116cd0 = 32
+
+
+[voice]
+disabled = false
+microphone_disabled = false
+activation_threshold = -57.0
+input_device = ""
+output_device = ""
+disable_input_device = false
+use_javax_input = false
+microphone_volume = 2.0
+noise_suppression = true
+volume = 2.0
+compressor_limiter = true
+sound_occlusion = true
+directional_sources = true
+hrtf = true
+stereo_capture = false
+
+[voice.volumes.source_e771852e-6fd6-4f5a-8d5d-e9dfa9171d0b]
+volume = 1.0
+[voice.volumes.source_7001fe89-b48f-4576-8480-03ef29b891d8]
+volume = 1.0
+[voice.volumes.source_346d304f-c847-422e-9810-6843bc84d479]
+volume = 1.0
+[voice.volumes.source_29c3ddc3-1d67-44f0-8a9c-7f3def2fc7a1]
+volume = 2.0
+[voice.volumes.source_0c7812a2-f6b1-41a8-8612-6b0566201c26]
+volume = 1.0
+[voice.volumes.source_aa9d912b-51e5-47cd-b07f-2a2a09d46cc3]
+volume = 1.85
+[voice.volumes.source_fe4e7e12-2575-4674-8e91-448356e4a6b9]
+volume = 1.0
+[voice.volumes.source_78a53b37-5965-4e10-9beb-561c5d5e5b73]
+volume = 1.0
+[voice.volumes.source_653ce7eb-950c-41f3-81c0-916a148ec585]
+volume = 1.0
+[voice.volumes.source_a3b7e686-9a1c-4124-a375-2215179e2370]
+volume = 1.0
+[voice.volumes.source_49f8cc38-84c8-4254-a7ba-c792c19847dc]
+volume = 1.0
+[voice.volumes.proximity]
+volume = 2.0
+[voice.volumes.source_424c6e62-d48f-4d49-bff9-877e5a64257e]
+volume = 1.0
+[voice.volumes.source_70b5e89a-80e6-4fa2-85d6-414c34b3a49c]
+volume = 1.0
+[voice.volumes.source_197a4899-2342-4193-910c-672272d6a550]
+volume = 1.0
+[voice.volumes.source_c27f269a-796e-4e33-89ef-023933f84cfd]
+volume = 1.0
+
+[advanced]
+visualize_voice_distance = true
+visualize_voice_distance_on_join = true
+compressor_threshold = -10
+limiter_threshold = -6
+directional_sources_angle = 145
+stereo_sources_to_mono = false
+panning = true
+camera_sound_listener = true
+exponential_volume_slider = true
+exponential_distance_gain = true
+
+[overlay]
+show_activation_icon = true
+activation_icon_position = "BOTTOM_CENTER"
+show_source_icons = 0
+show_static_source_icons = true
+overlay_enabled = true
+overlay_position = "TOP_LEFT"
+overlay_style = "NAME_SKIN"
+
+[overlay.source_states]
+proximity = "ON"

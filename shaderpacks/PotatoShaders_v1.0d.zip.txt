@@ -1,0 +1,4 @@
+#Thu Nov 16 01:42:15 EST 2023
+motionblurScale=0.4
+vignetteEnabled=false
+ambientOcclusionToggle=true

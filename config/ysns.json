@@ -1,0 +1,6 @@
+{
+  "blacklisted_entities": [
+    "any_mod:example_entity",
+    "creeperoverhaul:ocean_creeper"
+  ]
+}
